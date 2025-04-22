@@ -1,0 +1,6 @@
+Flask
+itsdangerous
+Werkzeug
+pyjwt
+cryptography
+gunicorn
