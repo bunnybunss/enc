@@ -1,0 +1,31 @@
+<!-- templates/dashboard.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Secure File Vault – Dashboard</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <h1>🔐 Secure File Vault – Dashboard</h1>
+
+  <div class="section">
+    <h3>Encrypt a File</h3>
+    <input type="file" id="encryptFile" />
+    <input type="password" id="encryptPassword" placeholder="Encryption password" />
+    <button id="encryptButton">Encrypt File</button>
+  </div>
+
+  <div class="section">
+    <h3>Decrypt a File</h3>
+    <input type="file" id="decryptFile" />
+    <input type="password" id="decryptPassword" placeholder="Decryption password" />
+    <button id="decryptButton">Decrypt File</button>
+  </div>
+
+  <p id="status"></p>
+  <p><a href="#" id="logoutLink">🚪 Logout</a></p>
+
+  <script src="/static/dashboard.js"></script>
+</body>
+</html>
